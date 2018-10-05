@@ -9,3 +9,5 @@ assert(solve(15)==26)
 
 def solvebis(n):
     return sum( int(c) for c in str(2**n))
+    
+print('La somme des chiffres du résultat de 2^1000 est :',solve(1000))
